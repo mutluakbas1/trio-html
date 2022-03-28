@@ -1,0 +1,33 @@
+
+table,
+td,
+td {
+    border: 2px solid rgb(15, 0, 0);
+    text-align: auto;
+}
+
+table {
+    border: 1px solid rgb(3, 3, 3);
+    border-collapse: collapse;
+    width: 70%;
+    text-align: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5em;
+
+}
+
+td,
+td {
+    padding: 20px;
+}
+tbody tr {
+    text-align: center;
+}
+tbody tr:ntd-child(odd) {
+     background-color: green;
+}
+
+#sayigöstergesi {
+    color:blue;
+}
